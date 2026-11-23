@@ -1,0 +1,52 @@
+{
+  "method": "Complex nodal AC and exact eigendecomposition of linear state space; not a SPICE run",
+  "nominal_cutoff_hz": 595.6201131155087,
+  "gain_10khz_db": -32.63847692333337,
+  "step_99_percent_ms": 1.2475,
+  "monte_carlo": {
+    "n": 10000,
+    "seed": 20261123,
+    "distribution": "Independent uniform R +/-1%, C +/-5%; unloaded, Rs=0",
+    "p2_5_median_p97_5_hz": [
+      572.2850409448691,
+      595.7762153373717,
+      620.6450045565967
+    ],
+    "observed_min_max_hz": [
+      564.9188916330288,
+      631.6303616436919
+    ]
+  },
+  "corners_hz": {
+    "all_RC_high": 561.6408421646142,
+    "all_RC_low": 633.3015556783714
+  },
+  "load_cases": {
+    "ideal": {
+      "source_ohm": 0,
+      "load_ohm": null,
+      "dc_gain": 1.0,
+      "cutoff_hz_relative_to_dc": 595.6201131155087,
+      "gain_10khz_db": -32.63847692333337
+    },
+    "recommended": {
+      "source_ohm": 100,
+      "load_ohm": 100000,
+      "dc_gain": 0.9794319294809012,
+      "cutoff_hz_relative_to_dc": 566.8495336275989,
+      "gain_10khz_db": -33.4345764869215
+    },
+    "heavy_10k_load": {
+      "source_ohm": 100,
+      "load_ohm": 10000,
+      "dc_gain": 0.8264462809917353,
+      "cutoff_hz_relative_to_dc": 660.4397998841332,
+      "gain_10khz_db": -33.45323150613821
+    }
+  },
+  "checks": {
+    "closed_form_max_complex_error": 4.441027621704298e-16,
+    "monotonic_step": true,
+    "unloaded_dc_gain": 1.0
+  }
+}

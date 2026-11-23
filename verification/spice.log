@@ -1,0 +1,43 @@
+stderr Warning: can't find the initialization file spinit.
+stdout ******
+stdout ** ngspice-45.2 shared library
+stdout ** Creation Date: Nov  6 2025   07:23:40
+stdout ******
+stdout Note: No compatibility mode selected!
+stdout Circuit: quietsense rev a - actual two-stage unbuffered ladder
+Prepare Deck
+Parse
+stdout ******
+stdout ** ngspice-45.2 : Circuit level simulation program
+stdout ** Compiled with KLU Direct Linear Solver
+stdout ** The U. C. Berkeley CAD Group
+stdout ** Copyright 1985-1994, Regents of the University of California.
+stdout ** Copyright 2001-2025, The ngspice team.
+stdout ** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+stdout ** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html
+stdout ** Creation Date: Nov  6 2025   07:23:40
+stdout ******
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+Device Setup
+stdout Using SPARSE 1.3 as Direct Linear Solver
+op
+ac
+--ready--
+stdout No. of Data Rows : 1201
+Parse
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+Device Setup
+stdout Using SPARSE 1.3 as Direct Linear Solver
+op
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout in                                           0
+stdout mid                                          0
+stdout out                                          0
+stdout vin#branch                                   0
+tran init
+tran
+--ready--
+stdout No. of Data Rows : 2022

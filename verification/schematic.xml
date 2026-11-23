@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Temp\quietsense-build\deliverables\quietsense\hardware\quietsense.kicad_sch</source>
+    <date>2026-11-23T21:31:07+0300</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>quietsense.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100 нФ / 5%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="QS" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="quietsense.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38ab6548-55b9-4875-8a8d-a17c52698a37</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100 нФ / 5%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="QS" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="quietsense.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc98d3d1-b35b-4163-bde4-940c0f5383a3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>ВХОД / GND</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="QS" part="Input" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="quietsense.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3186a86-1c94-40e5-bf79-7aaeea7d3c75</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>ВЫХОД / GND</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="QS" part="Port" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="quietsense.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01af8588-66e1-4f19-98d9-02f499353169</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1 кОм / 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="QS" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="quietsense.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c1c4790-d601-4b0e-ac6d-17af7a8b92ee</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1 кОм / 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="QS" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="quietsense.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b0262ed-a452-417f-beba-53dbc250377b</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>IN</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="QS" part="TP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="quietsense.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c281430f-a023-429c-9a2e-de6b2336e77b</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>MID</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="QS" part="TP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="quietsense.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06e60c7b-e58c-41f9-a02a-a7ed0a26be0b</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>OUT</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="QS" part="TP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="quietsense.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>570906e2-6303-4b4b-a2b5-9c718f0d3eb6</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="QS" part="TP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="quietsense.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5fbee3c-3c82-443f-b786-e43841a8c62b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="QS" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="QS" part="Input">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Input</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIG" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="QS" part="Port">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Port</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIG" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="QS" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="QS" part="TP">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="QS">
+      <uri>D:\Temp\quietsense-build\deliverables\quietsense\hardware/QS.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/IN" class="Default">
+      <node ref="J1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/MID" class="Default">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/OUT" class="Default">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

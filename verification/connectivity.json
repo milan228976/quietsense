@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "method": "Compare all reference/pin pairs in KiCad XML netlist with pcbnew-loaded board",
+  "nets": {
+    "OUT": [
+      [
+        "C2",
+        "1"
+      ],
+      [
+        "J2",
+        "1"
+      ],
+      [
+        "R2",
+        "2"
+      ],
+      [
+        "TP3",
+        "1"
+      ]
+    ],
+    "GND": [
+      [
+        "C1",
+        "2"
+      ],
+      [
+        "C2",
+        "2"
+      ],
+      [
+        "J1",
+        "2"
+      ],
+      [
+        "J2",
+        "2"
+      ],
+      [
+        "TP4",
+        "1"
+      ]
+    ],
+    "IN": [
+      [
+        "J1",
+        "1"
+      ],
+      [
+        "R1",
+        "1"
+      ],
+      [
+        "TP1",
+        "1"
+      ]
+    ],
+    "MID": [
+      [
+        "C1",
+        "1"
+      ],
+      [
+        "R1",
+        "2"
+      ],
+      [
+        "R2",
+        "1"
+      ],
+      [
+        "TP2",
+        "1"
+      ]
+    ]
+  },
+  "footprints": 12,
+  "copper_layers": 2,
+  "routing": "F.Cu only; no zones; 0.40mm tracks",
+  "nominal_outline_mm": [
+    45,
+    30
+  ],
+  "board_thickness_mm": 1.6,
+  "checks": [
+    "Exact net membership matches schematic",
+    "All 4 named nets present",
+    "12 footprints including 2 mechanical holes",
+    "Every track is 0.40mm on F.Cu"
+  ]
+}

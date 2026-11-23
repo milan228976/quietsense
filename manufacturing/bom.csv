@@ -1,0 +1,6 @@
+References,Quantity,Value,Footprint,Specification,Assembly
+R1 R2,2,1k,R_0805_2012Metric,1% 0.125W or higher 0805,Fit
+C1 C2,2,100n,C_0805_2012Metric,5% >=16V prefer C0G NP0; verify availability,Fit
+J1 J2,2,1x2 2.54mm,PinHeader_1x02_P2.54mm_Vertical,Vertical through-hole pin header 2.54mm,Fit
+TP1 TP2 TP3 TP4,4,Test pad,TestPoint_Pad_D2.0mm,Exposed copper feature; no purchased component,PCB feature
+H1 H2,2,M2.5,MountingHole_2.7mm_M2.5,2.7mm NPTH; M2.5 hardware optional,Mechanical only

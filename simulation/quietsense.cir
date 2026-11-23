@@ -1,0 +1,19 @@
+QuietSense Rev A - actual two-stage unbuffered ladder
+* Ideal source and unloaded output. Units: ohms, farads, seconds.
+Vin in 0 DC 0 AC 1 PULSE(0 1 0 1n 1n 10m 20m)
+R1 in mid 1k
+R2 mid out 1k
+C1 mid 0 100n
+C2 out 0 100n
+.control
+set wr_singlescale
+set wr_vecnames
+ac dec 240 1 100k
+let gain_db = db(v(out))
+let phase_deg = 180/PI*cph(v(out))
+wrdata spice_ac.txt gain_db phase_deg
+tran 1u 2m
+wrdata spice_step.txt v(out)
+quit
+.endc
+.end

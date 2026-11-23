@@ -1,0 +1,33 @@
+9.0.7
+
+РќР°Р№РґРµРЅРѕ 0 РЅР°СЂСѓС€РµРЅРёР№
+РћС‚С‡С‘С‚ ERC СЃРѕС…СЂР°РЅРµРЅ РІ D:\Temp\quietsense-build\deliverables\quietsense\verification\erc.json
+
+РќР°Р№РґРµРЅРѕ 0 РЅР°СЂСѓС€РµРЅРёР№
+РќР°Р№РґРµРЅРѕ 0 РЅРµРїРѕРґРєР»СЋС‡РµРЅРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ
+РќР°Р№РґРµРЅРѕ 0 РїСЂРѕР±Р»РµРј СЃ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµРј СЃС…РµРјРµ
+РћС‚С‡РµС‚ DRC СЃРѕС…СЂР°РЅРµРЅ РІ D:\Temp\quietsense-build\deliverables\quietsense\verification\drc.json
+
+РќР°С‡РµСЂС‡РµРЅРѕ РІ 'D:\Temp\quietsense-build\deliverables\quietsense\docs\schematic\quietsense.svg'.
+Р“РѕС‚РѕРІРѕ.
+
+Plotted to 'D:\Temp\quietsense-build\deliverables\quietsense\docs\schematic.pdf'.
+Done.
+
+
+Plotted to 'D:\Temp\quietsense-build\deliverables\quietsense\manufacturing\gerber\quietsense-F_Cu.gtl'.
+Plotted to 'D:\Temp\quietsense-build\deliverables\quietsense\manufacturing\gerber\quietsense-B_Cu.gbl'.
+Plotted to 'D:\Temp\quietsense-build\deliverables\quietsense\manufacturing\gerber\quietsense-F_Silkscreen.gto'.
+Plotted to 'D:\Temp\quietsense-build\deliverables\quietsense\manufacturing\gerber\quietsense-B_Silkscreen.gbo'.
+Plotted to 'D:\Temp\quietsense-build\deliverables\quietsense\manufacturing\gerber\quietsense-F_Mask.gts'.
+Plotted to 'D:\Temp\quietsense-build\deliverables\quietsense\manufacturing\gerber\quietsense-B_Mask.gbs'.
+Plotted to 'D:\Temp\quietsense-build\deliverables\quietsense\manufacturing\gerber\quietsense-Edge_Cuts.gm1'.
+
+РЎРѕР·РґР°РЅ С„Р°Р№Р» 'D:\Temp\quietsense-build\deliverables\quietsense\manufacturing\drill\quietsense.drl'
+РЎРѕР·РґР°РЅ С„Р°Р№Р» 'D:\Temp\quietsense-build\deliverables\quietsense\manufacturing\drill\quietsense-drl_map.svg'.
+Р“РѕС‚РѕРІРѕ.
+
+Wrote position data to 'D:\Temp\quietsense-build\deliverables\quietsense\manufacturing\placement-top.csv'.
+
+Plotted to 'D:\Temp\quietsense-build\deliverables\quietsense\docs\pcb-layout.svg'.
+Done.

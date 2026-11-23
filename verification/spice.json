@@ -1,0 +1,9 @@
+{
+  "backend": "ngspice shared library shipped with KiCad 9.0.7",
+  "ac_max_gain_error_db": 1.056869649573855e-07,
+  "transient_max_error_v_for_1V_step": 4.467613569016093e-06,
+  "ac_pass_threshold_db": 1e-05,
+  "transient_pass_threshold_v": 0.002,
+  "passed": true,
+  "note": "Transient source has 1ns rise time; SPICE uses adaptive time steps."
+}
